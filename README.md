@@ -101,16 +101,7 @@ fars_pd.sample(5)
       <th>EJECTION</th>
       <th>EJECTION_PATH</th>
       <th>EXTRICATION</th>
-      <th>NON_MOTORIST_LOCATION</th>
-      <th>POLICE_REPORTED_ALCOHOL_INVOLVEMENT</th>
-      <th>METHOD_ALCOHOL_DETERMINATION</th>
-      <th>ALCOHOL_TEST_TYPE</th>
-      <th>ALCOHOL_TEST_RESULT</th>
-      <th>POLICE-REPORTED_DRUG_INVOLVEMENT</th>
-      <th>METHOD_OF_DRUG_DETERMINATION</th>
-      <th>DRUG_TEST_TYPE</th>
-      <th>DRUG_TEST_RESULTS_(1_of_3)</th>
-      <th>DRUG_TEST_TYPE_(2_of_3)</th>
+      <th>...</th>
       <th>DRUG_TEST_RESULTS_(2_of_3)</th>
       <th>DRUG_TEST_TYPE_(3_of_3)</th>
       <th>DRUG_TEST_RESULTS_(3_of_3)</th>
@@ -125,126 +116,90 @@ fars_pd.sample(5)
   </thead>
   <tbody>
     <tr>
-      <th>3960</th>
-      <td>2.0</td>
-      <td>20.0</td>
-      <td>1.0</td>
+      <th>24608</th>
+      <td>9.0</td>
+      <td>58.0</td>
+      <td>0.0</td>
       <td>6.0</td>
-      <td>6.0</td>
+      <td>16.0</td>
       <td>5.0</td>
       <td>4.0</td>
       <td>0.0</td>
       <td>0.0</td>
-      <td>2.0</td>
-      <td>16.0</td>
       <td>1.0</td>
-      <td>2.0</td>
-      <td>9.0</td>
-      <td>0.0</td>
-      <td>2.0</td>
-      <td>3.0</td>
-      <td>2.0</td>
+      <td>...</td>
       <td>0.0</td>
       <td>2.0</td>
       <td>0.0</td>
+      <td>6.0</td>
       <td>2.0</td>
-      <td>0.0</td>
-      <td>4.0</td>
-      <td>0.0</td>
       <td>27.0</td>
+      <td>29.0</td>
+      <td>19.0</td>
+      <td>11.0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>62743</th>
+      <td>32.0</td>
+      <td>86.0</td>
+      <td>0.0</td>
+      <td>7.0</td>
+      <td>8.0</td>
+      <td>7.0</td>
+      <td>11.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>2.0</td>
+      <td>0.0</td>
+      <td>5.0</td>
+      <td>2.0</td>
+      <td>15.0</td>
       <td>29.0</td>
       <td>19.0</td>
       <td>17.0</td>
       <td>1</td>
     </tr>
     <tr>
-      <th>1542</th>
+      <th>85449</th>
+      <td>43.0</td>
+      <td>64.0</td>
       <td>0.0</td>
-      <td>27.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>3.0</td>
       <td>6.0</td>
-      <td>4.0</td>
+      <td>6.0</td>
+      <td>5.0</td>
+      <td>2.0</td>
       <td>0.0</td>
       <td>0.0</td>
       <td>1.0</td>
-      <td>16.0</td>
-      <td>2.0</td>
-      <td>2.0</td>
-      <td>4.0</td>
-      <td>96.0</td>
-      <td>3.0</td>
-      <td>3.0</td>
-      <td>2.0</td>
+      <td>...</td>
       <td>0.0</td>
       <td>2.0</td>
       <td>0.0</td>
-      <td>2.0</td>
-      <td>0.0</td>
-      <td>8.0</td>
-      <td>0.0</td>
+      <td>6.0</td>
+      <td>1.0</td>
       <td>27.0</td>
       <td>29.0</td>
       <td>19.0</td>
-      <td>15.0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>59944</th>
-      <td>30.0</td>
-      <td>57.0</td>
-      <td>0.0</td>
-      <td>1.0</td>
-      <td>3.0</td>
       <td>11.0</td>
-      <td>12.0</td>
-      <td>3.0</td>
-      <td>9.0</td>
-      <td>2.0</td>
-      <td>16.0</td>
-      <td>2.0</td>
-      <td>2.0</td>
-      <td>6.0</td>
-      <td>99.0</td>
-      <td>3.0</td>
-      <td>3.0</td>
-      <td>5.0</td>
-      <td>999.0</td>
-      <td>5.0</td>
-      <td>999.0</td>
-      <td>5.0</td>
-      <td>999.0</td>
-      <td>8.0</td>
-      <td>1.0</td>
-      <td>27.0</td>
-      <td>29.0</td>
-      <td>19.0</td>
-      <td>15.0</td>
-      <td>1</td>
+      <td>6</td>
     </tr>
     <tr>
-      <th>49173</th>
-      <td>22.0</td>
-      <td>99.0</td>
+      <th>63398</th>
+      <td>32.0</td>
+      <td>84.0</td>
       <td>1.0</td>
-      <td>6.0</td>
-      <td>22.0</td>
-      <td>5.0</td>
-      <td>4.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
       <td>1.0</td>
-      <td>16.0</td>
-      <td>1.0</td>
-      <td>2.0</td>
-      <td>4.0</td>
-      <td>96.0</td>
-      <td>2.0</td>
       <td>3.0</td>
+      <td>5.0</td>
       <td>2.0</td>
       <td>0.0</td>
-      <td>2.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>...</td>
       <td>0.0</td>
       <td>2.0</td>
       <td>0.0</td>
@@ -257,40 +212,32 @@ fars_pd.sample(5)
       <td>4</td>
     </tr>
     <tr>
-      <th>1715</th>
+      <th>95416</th>
+      <td>46.0</td>
+      <td>68.0</td>
       <td>0.0</td>
-      <td>18.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>3.0</td>
-      <td>7.0</td>
+      <td>6.0</td>
+      <td>6.0</td>
+      <td>5.0</td>
       <td>4.0</td>
       <td>0.0</td>
       <td>0.0</td>
       <td>1.0</td>
-      <td>16.0</td>
-      <td>2.0</td>
-      <td>2.0</td>
-      <td>9.0</td>
-      <td>97.0</td>
-      <td>3.0</td>
-      <td>3.0</td>
-      <td>5.0</td>
-      <td>999.0</td>
-      <td>2.0</td>
+      <td>...</td>
       <td>0.0</td>
       <td>2.0</td>
       <td>0.0</td>
-      <td>8.0</td>
-      <td>0.0</td>
+      <td>6.0</td>
+      <td>2.0</td>
       <td>27.0</td>
       <td>29.0</td>
       <td>19.0</td>
-      <td>15.0</td>
-      <td>1</td>
+      <td>11.0</td>
+      <td>6</td>
     </tr>
   </tbody>
 </table>
+<p>5 rows × 30 columns</p>
 </div>
 
 
@@ -303,7 +250,7 @@ sns.pairplot(fars_pd.sample(1000))
 
 
 
-    <seaborn.axisgrid.PairGrid at 0x7f91128fd9b0>
+    <seaborn.axisgrid.PairGrid at 0x7f9414112908>
 
 
 
@@ -374,14 +321,14 @@ tsne_results_pd[categorie_to_color] = sample_ds[categorie_to_color].astype('int'
 ```
 
     [t-SNE] Computing 106 nearest neighbors...
-    [t-SNE] Indexed 3000 samples in 0.014s...
-    [t-SNE] Computed neighbors for 3000 samples in 0.318s...
+    [t-SNE] Indexed 3000 samples in 0.012s...
+    [t-SNE] Computed neighbors for 3000 samples in 0.221s...
     [t-SNE] Computed conditional probabilities for sample 1000 / 3000
     [t-SNE] Computed conditional probabilities for sample 2000 / 3000
     [t-SNE] Computed conditional probabilities for sample 3000 / 3000
-    [t-SNE] Mean sigma: 5.682091
-    [t-SNE] KL divergence after 250 iterations with early exaggeration: 61.308640
-    [t-SNE] KL divergence after 5000 iterations: 0.619058
+    [t-SNE] Mean sigma: 6.079796
+    [t-SNE] KL divergence after 250 iterations with early exaggeration: 61.106724
+    [t-SNE] KL divergence after 5000 iterations: 0.639076
 
 
 
@@ -395,14 +342,14 @@ tsne_results_pd3d[categorie_to_color] = sample_ds_3d[categorie_to_color].astype(
 ```
 
     [t-SNE] Computing 136 nearest neighbors...
-    [t-SNE] Indexed 3000 samples in 0.007s...
-    [t-SNE] Computed neighbors for 3000 samples in 0.311s...
+    [t-SNE] Indexed 3000 samples in 0.012s...
+    [t-SNE] Computed neighbors for 3000 samples in 0.238s...
     [t-SNE] Computed conditional probabilities for sample 1000 / 3000
     [t-SNE] Computed conditional probabilities for sample 2000 / 3000
     [t-SNE] Computed conditional probabilities for sample 3000 / 3000
-    [t-SNE] Mean sigma: 6.371458
-    [t-SNE] KL divergence after 250 iterations with early exaggeration: 59.635605
-    [t-SNE] KL divergence after 2500 iterations: 0.496149
+    [t-SNE] Mean sigma: 6.154976
+    [t-SNE] KL divergence after 250 iterations with early exaggeration: 59.286453
+    [t-SNE] KL divergence after 2500 iterations: 0.478998
 
 
 
@@ -434,12 +381,55 @@ plt.show()
 ![png](FARS_files/FARS_20_0.png)
 
 
+## Accelerate with CUDA/RAPIDS and use all the data
+
+### This part of the code needs a NVIDIA P100 or T4 and at least rapids 0.9
+
 
 ```python
-#ToDo
-#Accelerate with RAPIDS and use all the Data
-#Use different categorie to color graph
+import cudf
+import cuml
+from cuml.manifold import TSNE as TSNE_CUDA
 ```
+
+
+```python
+tsne_cuda = TSNE_CUDA(n_components=2, verbose=1, perplexity=35, n_iter=5000,learning_rate=200 )
+```
+
+
+```python
+tsne_results_c = tsne_cuda.fit_transform(cudf.DataFrame.from_pandas(fars_pd))
+tsne_results_c = cudf.DataFrame.to_pandas(tsne_results_c)
+```
+
+    Learning rate is adaptive. In TSNE paper, it has been shown that as n->inf, Barnes Hut works well if n_neighbors->30, learning_rate->20000, early_exaggeration->24.
+    cuML uses an adpative method.n_neighbors decreases to 30 as n->inf. Likewise for the other params.
+    New n_neighbors = 30, learning_rate = 33656.0, exaggeration = 24.0
+
+
+
+```python
+tsne_results_c.columns=['x','y']
+```
+
+
+```python
+fig_tsne_c = plt.figure(figsize=(20,20))
+
+plt.scatter(tsne_results_c['x'], tsne_results_c['y'],c=fars_pd[categorie_to_color].astype('int'),alpha=0.3, cmap=plt.cm.tab10_r)
+```
+
+
+
+
+    <matplotlib.collections.PathCollection at 0x7f941790a630>
+
+
+
+
+![png](FARS_files/FARS_27_1.png)
+
 
 
 ```python
